@@ -505,11 +505,6 @@ extension CGRect {
 }
 
 // MARK: transform
-
-public func ==(t1: CGAffineTransform, t2: CGAffineTransform) -> Bool {
-    return t1 == t2
-}
-
 extension CGAffineTransform: CustomDebugStringConvertible {
     public var debugDescription: String {
         return "(\(a),\(b),\(c),\(d),\(tx),\(ty))"
